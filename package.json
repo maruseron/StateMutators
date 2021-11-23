@@ -1,0 +1,15 @@
+{
+  "name": "statemutator",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Some mutable box implementations",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maruseron",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.11.9"
+  }
+}
