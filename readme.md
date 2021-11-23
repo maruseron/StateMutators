@@ -23,7 +23,7 @@ interface LazyStateMutator<T> {
 The point of the `StateMutator` interface is so it can be used like this:
 ```ts
 // pointer can be a SimpleStateMutator, an ObservableStateMutator, etc
-function incrementPointer(pointer: MutableStateMutator<number>): void {
+function incrementPointer(pointer: EagerStateMutator<number>): void {
     pointer.mut(i => ++i);
 }
 ```
